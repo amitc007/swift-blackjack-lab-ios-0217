@@ -12,6 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
+    var dealer:Dealer = Dealer()
     
     /**
      
@@ -33,9 +34,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     /*
      
-     * Write your playBlackjack method in here
-     
-     */
+     * Write your playBlackjack method in here  */
     
+    func playBlackjack(withBet:UInt) {
+        
+    }
 }
 
